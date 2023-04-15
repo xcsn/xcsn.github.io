@@ -1,0 +1,6 @@
+html * {
+    font-size: 1em !important;
+    color: #ffffff !important;
+    font-family:"Source Code Pro", monospace !important;
+    background-color: black;
+}
