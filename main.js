@@ -23,9 +23,9 @@ const inputLeftElement = document.getElementById('input-left');
 const inputRightElement = document.getElementById('input-right');
 
 inputButtonElement.addEventListener('click', function (event) {
-    console.log(event.target);
-    console.log(inputLeftElement.value);
-    console.log(inputRightElement.value);
-    // instance.exports.add(40, 2)
-    // resultElement.textContent = `${sum}`;
-})
+    // console.log(event);
+    const leftValue = inputLeftElement.value;
+    const rightValue = inputRightElement.value;
+    const sum = instance.exports.add(leftValue, rightValue);
+    resultElement.textContent = `${sum}`;
+});
