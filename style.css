@@ -4,3 +4,13 @@ html * {
     font-family:"Source Code Pro", monospace !important;
     background-color: black;
 }
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+}
